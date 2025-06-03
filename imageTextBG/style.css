@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: "Edu SA Hand", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+.heading {
+    font-size: 10rem;
+    font-weight: 900;
+    background: url(https://t3.ftcdn.net/jpg/06/02/51/78/360_F_602517800_fXQj8sHnK1Jp8PnVywOAUXNHt6bNf95X.webp);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
